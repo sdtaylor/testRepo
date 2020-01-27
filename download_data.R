@@ -15,5 +15,5 @@ heights = woody_structure$vst_apparentindividual %>%
             n_stems = n()) %>%
   ungroup()
 
-write_csv(heights,  paste0('./jorn.csv'))
+write_csv(heights,  paste0('./',site_id,'.csv'))
 }
