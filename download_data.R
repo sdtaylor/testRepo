@@ -2,7 +2,7 @@ library(tidyverse)
 library(neonUtilities)
 library(geoNEON)
 
-sites = c('JORN','TALL')
+sites = c('JORN','TALL','BART','BARR')
 
 for(site_id in sites){
 woody_structure=tryCatch(neonUtilities::loadByProduct('DP1.10098.001', site=site_id,
